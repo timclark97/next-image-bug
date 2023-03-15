@@ -1,4 +1,9 @@
-/** Add your relevant code here for the issue to reproduce */
+import Image from "next/image";
+
 export default function Home() {
-  return null
+  return (
+    <div>
+      <Image src="photo.jpg" width={200} height={200} alt="Image" />
+    </div>
+  );
 }
